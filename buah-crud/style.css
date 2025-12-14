@@ -1,0 +1,188 @@
+/* ====== GLOBAL ====== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #fcf6ff; /* soft pink-lavender */
+    color: #444;
+}
+
+/* ====== CONTAINER ====== */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background: #ffffffd9;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(255, 125, 205, 0.15); /* pink soft shadow */
+}
+
+/* ====== JUDUL ====== */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #b46fe3; /* ungu-pink seperti gambar */
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* ====== TOMBOL TAMBAH ====== */
+a.btn {
+    background: #ff8fe6; /* pink pastel */
+    padding: 14px 24px;
+    text-decoration: none;
+    color: white;
+    border-radius: 14px;
+    display: inline-block;
+    margin-bottom: 25px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(255, 128, 200, 0.3);
+    transition: 0.2s;
+}
+
+a.btn:hover {
+    background: #ff6fd8;
+    transform: scale(1.03);
+}
+
+/* ====== TABLE ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+th {
+    background: #ffe1fa; /* header pink-pastel */
+    padding: 16px;
+    font-weight: 600;
+    color: #b437a3;
+    font-size: 16px;
+}
+
+td {
+    padding: 14px 10px;
+    border-bottom: 1px solid #ffe0f4;
+    font-size: 15px;
+}
+
+/* ====== RATAKAN KOLOM ====== */
+th:nth-child(1), td:nth-child(1) { width: 60px; text-align: center; }
+th:nth-child(2), td:nth-child(2) { width: 280px; }
+th:nth-child(3), td:nth-child(3) { width: 120px; text-align: center; }
+th:nth-child(4), td:nth-child(4) { width: 120px; text-align: center; }
+th:nth-child(5), td:nth-child(5) { width: 220px; text-align: center; }
+
+/* ====== TOMBOL AKSI ====== */
+.action {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.action a {
+    padding: 10px 22px;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+/* EDIT */
+.edit {
+    background: #ff8fe6; /* pink seperti gambar */
+    box-shadow: 0 3px 10px rgba(255, 130, 210, 0.3);
+}
+
+.edit:hover {
+    background: #ff6fd8;
+    transform: scale(1.03);
+}
+
+/* HAPUS */
+.hapus {
+    background: #ff89ad; /* pink-merah pastel */
+    box-shadow: 0 3px 10px rgba(255, 90, 140, 0.3);
+}
+
+.hapus:hover {
+    background: #ff6d92;
+    transform: scale(1.03);
+}
+
+/* ====== INPUT & FORM ===== */
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid #f3d0ff; /* warna input seperti gambar */
+    background: #ffffffd9;
+}
+
+input:focus {
+    border-color: #dba2ff;
+    box-shadow: 0 0 8px rgba(219, 162, 255, 0.3);
+}
+
+/* CARD FORM */
+.form-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 6px 16px rgba(255, 120, 210, 0.1);
+}
+
+/* BUTTON SUBMIT */
+button {
+    background: #ff8fe6;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 14px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(255, 120, 210, 0.3);
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #ff6fd8;
+    transform: scale(1.03);
+}
+
+
+/* =====================================================
+   ======  NEW SEARCH BOX STYLE (seperti gambar) =======
+   ===================================================== */
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 35px 0;
+}
+
+.search-input {
+    width: 60%;
+    max-width: 550px;
+    padding: 18px 20px;
+    border-radius: 25px;
+    border: 2px solid #e2d4ff;
+    background: #fff;
+    font-size: 16px;
+    box-shadow: 0 0 12px rgba(180, 140, 255, 0.25);
+    transition: 0.2s;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #c8a7ff;
+    box-shadow: 0 0 15px rgba(180, 140, 255, 0.45);
+}
